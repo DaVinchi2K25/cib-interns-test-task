@@ -2,18 +2,13 @@ package com.davinchi.raifsocks.controllers;
 
 import com.davinchi.raifsocks.Socks;
 import com.davinchi.raifsocks.repos.SocksRepo;
-import org.hibernate.criterion.Example;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.relational.core.sql.In;
 import org.springframework.expression.ParseException;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
-import java.util.Objects;
 
 @Controller
 public class WebController {
